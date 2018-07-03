@@ -1,16 +1,8 @@
 {
   "name": "liri-node-app",
   "version": "1.0.0",
-  "description": "BootCamp Class Proyect",
-  "main": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Cliri-app.js",
-  "dependencies": {
-    "dotenv": "^5.0.1",
-    "inquirer": "^5.2.0",
-    "node-spotify-api": "^1.0.7",
-    "request": "^2.85.0",
-    "twitter": "^1.7.1"
-  },
-  "devDependencies": {},
+  "description": "LIRI Bot",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,10 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/GonzaloEspinel/liri-node-app.git"
   },
-  "author": "Gonzalo Espinel",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GonzaloEspinel/liri-node-app/issues"
   },
-  "homepage": "https://github.com/GonzaloEspinel/liri-node-app#readme"
+  "homepage": "https://github.com/GonzaloEspinel/liri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "inquirer": "^6.0.0",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.87.0",
+    "twitter": "^1.7.1"
+  }
 }
